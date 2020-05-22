@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1090508184279",
+    "firebase_url": "https://moviemates-40283.firebaseio.com",
+    "project_id": "moviemates-40283",
+    "storage_bucket": "moviemates-40283.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090508184279:android:8ffad53c78426081b12e92",
+        "android_client_info": {
+          "package_name": "com.burakakdeniz.moviemates"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090508184279-3acl4beanksa77esr7ilpokg4ohtrf5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6pUf5x_ma-sYFXN1NhwYjhB4h3teI-EQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090508184279-3acl4beanksa77esr7ilpokg4ohtrf5e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

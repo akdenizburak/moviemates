@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MovieMates</string>
+    <string name="button_google_sign">Google ile Giriş Yap</string>
+    <string name="button_save">Save</string>
+
+    <string name="movie_name">Film Adı</string>
+    <string name="release_year">Çıkış Yılı</string>
+    <string name="genre">Türü</string>
+
+    <string name="toast_google_sign_in_error">Google hesabınıza girmeye çalışırken bir hata oluştu!</string>
+    <string name="toast_google_sign_in_fail">Kullanıcı adı ve ya Şifre hatalı!</string>
+    <string name="toast_validation">Lütfen tüm alanları doldurunuz.</string>
+    <string name="toast_add_success">Film Başarıyla Eklendi</string>
+    <string name="toast_edit_success">Film Başarıyla Düzenlendi</string>
+    <string name="toast_delete_success">Film Başarıyla Silindi</string>
+
+    <string name="alert_delete_title">Filmi Sil?</string>
+    <string name="alert_delete_content">Filmi listenizden silmek istiyor musunuz?</string>
+    <string name="alert_yes">EVET</string>
+    <string name="alert_cancel">Hayır</string>
+    <string name="alert_logout_title">Çıkış Yap</string>
+    <string name="alert_logout_content">Çıkış yapmak istediğinize emin misiniz?</string>
+    <string name="todo">TODO</string>
+
+
+</resources>

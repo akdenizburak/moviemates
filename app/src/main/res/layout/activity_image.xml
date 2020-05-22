@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/movieDetail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bginfo"
+    tools:context=".ui.activity.ImageActivity">
+
+    <ImageView
+        android:id="@+id/posterId"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/votes"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_sc_black"
+        android:gravity="center_horizontal"
+        android:text="Oy: 1,367,223"
+        android:textColor="#FFED47"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/rating"
+        app:layout_constraintTop_toBottomOf="@+id/posterId" />
+
+    <TextView
+        android:id="@+id/genreM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_sc_bold_italic"
+        android:gravity="center_horizontal"
+        android:text="Aksiyon, Macera, Bilim kurgu, gerilim"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yearRelease" />
+
+    <TextView
+        android:id="@+id/actors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/alegreya_sans_sc_bold_italic"
+        android:gravity="center_horizontal"
+        android:padding="3dp"
+        android:text="Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Tom Hardy"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/rating"
+        app:layout_constraintStart_toEndOf="@+id/rating"
+        app:layout_constraintTop_toBottomOf="@+id/rating" />
+
+    <TextView
+        android:id="@+id/boxoffice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_sc_bold_italic"
+        android:gravity="center_horizontal"
+        android:text="$292,568,851"
+        android:textColor="#16B122"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/genreM" />
+
+    <TextView
+        android:id="@+id/director"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/alegreya_sans_sc_bold_italic"
+        android:gravity="center_horizontal"
+        android:text="Christopher Nolan"
+        android:textColor="#005AFF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/actors" />
+
+    <TextView
+        android:id="@+id/runtime"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_sc_black"
+        android:gravity="center_horizontal"
+        android:text="148min"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/genreM"
+        app:layout_constraintEnd_toStartOf="@+id/country"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/yearRelease" />
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_sc_black"
+        android:gravity="center_horizontal"
+        android:text="USA, UK"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/genreM"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/runtime" />
+
+    <TextView
+        android:id="@+id/yearRelease"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/alegreya_sans_sc_black"
+        android:gravity="center_horizontal"
+        android:text="2010"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/runtime"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/director" />
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_sc_black"
+        android:gravity="center_horizontal"
+        android:text="Puan: 8.9"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/votes"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/posterId" />
+</androidx.constraintlayout.widget.ConstraintLayout>
